@@ -52,7 +52,7 @@ struct QuizBrain {
         return false
     }
     
-    // Method for updatin the answers
+    // Method for updating the answers
     func getCurrentAnswers() -> Array<String> {
         return quiz[questionNumber].answers // Returns an array of possible answers
     }
@@ -74,7 +74,7 @@ struct QuizBrain {
     
     // - Method for updating the quiz logic
     // - The mutating function keyword allows us to change the state of
-    // the struct change the properties for immutable tpo mutable
+    // the struct. Changing the properties from immutable to mutable data type
     mutating func nextQuestion() {
         // Check if the questionNumber index is in range of quiz length
         if questionNumber < quiz.count - 1 {
