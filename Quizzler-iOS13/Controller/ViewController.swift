@@ -17,9 +17,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionALabel: UILabel!         // Answer A label
     @IBOutlet weak var questionBLabel: UILabel!         // Answer B label
     @IBOutlet weak var questionCLabel: UILabel!         // Answer C label
-    @IBOutlet weak var AButton: UIButton!
-    @IBOutlet weak var BButton: UIButton!
-    @IBOutlet weak var CButton: UIButton!
+    @IBOutlet weak var AButton: UIButton!               // Answer A button
+    @IBOutlet weak var BButton: UIButton!               // Answer B button
+    @IBOutlet weak var CButton: UIButton!               // Answer C button
     
     
     // Instance of QuizBrain Model with Quiz logic
